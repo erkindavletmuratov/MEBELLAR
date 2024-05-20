@@ -305,7 +305,9 @@ header {
 
 }
 
-@media only screen and (max-width: 767px) {
+
+
+@media only screen and (max-width: 412px) {
     .container {
         width: 96% ;
     }
@@ -318,12 +320,22 @@ header {
     }
 
     .section2_img1 {
-        width: 400px;
+        width: 390px;
        
     }
     .section2_h3 {
         font-size: 24px;
-        margin-left: 30px;
+        text-align: center;
+       
+    }
+
+    .section2_p {
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .section2_button {
+        margin-left: 50px;
     }
 
     .main_section2 {
@@ -336,12 +348,17 @@ header {
     .section2_h2 {
         font-size: 34px;
         margin-top: -50px;
-        margin-left: -40px;
+        text-align: center;
     }
 
     .header_nav {
         display: none;
-        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_a {
+        margin-left: 200px;
+        margin-top: 90px;
     }
 
     .section1_button2 {
@@ -354,6 +371,74 @@ header {
 
     .section1_button {
         margin-left: 120px;
+    }
+
+    .section3_h3 {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .section3_h2 {
+        font-size: 34px;
+        text-align: center;
+        margin-left: 19px;
+    }
+
+    .section3_img1 {
+        width: 390px;
+    }
+    
+    .section4_h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 19px;
+    }
+
+    .section4_h2 {
+        font-size: 44px;
+        text-align: center;
+        margin-left: 19px;
+    }
+    .kattadiv {
+
+        flex-direction: column;
+        
+    }
+
+    .section4_img4 {
+        display: none;
+    }
+
+    .section4_img5 {
+        display: none;
+    }
+
+    
+    .section5_div1 {
+       
+        flex-direction: column;
+    }
+    .div1_h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .section5_h3 {
+        font-size: 34px;
+        margin-top: -40px;
+        text-align: center;
+    }
+    .section5_img {
+        width: 380px;
+        margin-left: -50px;
+    }
+
+    .section5_button {
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+
+    .footer_div {
+        flex-direction: column;
     }
 }
 
